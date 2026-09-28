@@ -4,28 +4,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Crime in Dungeon — ZdancDev</title>
-  <meta name="description" content="Crime in Dungeon — detektywistyczna gra logiczna na Androida od ZdancDev.">
+  <meta name="title-pl" content="Crime in Dungeon — ZdancDev">
+  <meta name="title-en" content="Crime in Dungeon — ZdancDev">
+  <meta name="description" content="Crime in Dungeon — a detective logic game for Android by ZdancDev.">
   <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
 </head>
 <body>
 <main>
+  <div class="switch" role="group" aria-label="Language / Język">
+    <button type="button" data-set-lang="pl">PL</button>
+    <button type="button" data-set-lang="en">EN</button>
+  </div>
+
   <header>
     <p class="muted">ZdancDev</p>
     <h1>Crime in Dungeon</h1>
-    <nav>
-      <a href="#pl">Polski</a>
-      <a href="#en">English</a>
-      <a href="privacy.html">Polityka prywatności / Privacy policy</a>
-    </nav>
   </header>
 
-  <section id="pl">
+  <section lang="pl">
     <p>W lochu doszło do morderstwa. Ustal, gdzie stał każdy podejrzany, i wskaż sprawcę.
       W każdym rzędzie i w każdej kolumnie stoi dokładnie jedna osoba, a wszystkie wskazówki
       muszą być prawdziwe jednocześnie.</p>
     <p>Rozwiązuj sprawy od 4x4 do 16x16, zdobywaj złoto i doświadczenie, rozwijaj zdolności
       detektywa i wykonuj zlecenia z tablicy w karczmie.</p>
-    <p><a href="https://play.google.com/store/apps/details?id=com.zdancdev.crimeindungeon">Google Play</a></p>
+    <p><a href="https://play.google.com/store/apps/details?id=com.zdancdev.crimeindungeon">Pobierz z Google Play</a></p>
 
     <h2>Osiągnięcia</h2>
     <p class="muted">Osiągnięcia zdobywasz w Google Play Games.</p>
@@ -38,15 +41,15 @@
     </ul>
   </section>
 
-  <section id="en" class="lang">
-    <h2>English</h2>
+  <section lang="en">
     <p>A murder has been committed in the dungeon. Work out where every suspect stood and name
       the culprit. Every row and every column holds exactly one person, and all the clues must
       be true at the same time.</p>
     <p>Solve cases from 4x4 up to 16x16, earn gold and experience, grow your detective's
       abilities and take quests from the tavern board.</p>
+    <p><a href="https://play.google.com/store/apps/details?id=com.zdancdev.crimeindungeon">Get it on Google Play</a></p>
 
-    <h3>Achievements</h3>
+    <h2>Achievements</h2>
     <p class="muted">Achievements are earned through Google Play Games.</p>
     <ul class="achievements">
       <li><strong>First Win!</strong> — solve your first case.</li>
@@ -58,7 +61,9 @@
   </section>
 
   <footer>
-    © 2026 ZdancDev · <a href="privacy.html">Polityka prywatności / Privacy policy</a>
+    © 2026 ZdancDev ·
+    <a href="privacy.html" lang="pl">Polityka prywatności</a>
+    <a href="privacy.html" lang="en">Privacy policy</a>
   </footer>
 </main>
 </body>

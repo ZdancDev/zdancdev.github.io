@@ -53,10 +53,27 @@ nav a { margin-right: 16px; }
 }
 .achievements strong { color: var(--accent); }
 
-.lang {
-  border-top: 1px solid var(--line);
-  margin-top: 56px;
-  padding-top: 8px;
+html[data-lang="pl"] [lang="en"],
+html[data-lang="en"] [lang="pl"] { display: none; }
+
+.switch {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.switch button {
+  background: var(--surface);
+  color: var(--muted);
+  border: 0;
+  padding: 8px 16px;
+  font: inherit;
+  cursor: pointer;
+}
+.switch button[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--bg);
 }
 
 footer {

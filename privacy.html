@@ -4,18 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Polityka prywatności — Crime in Dungeon</title>
+  <meta name="title-pl" content="Polityka prywatności — Crime in Dungeon">
+  <meta name="title-en" content="Privacy policy — Crime in Dungeon">
   <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
 </head>
 <body>
 <main>
-  <header>
-    <p><a href="index.html">← Crime in Dungeon</a></p>
-    <h1>Polityka prywatności</h1>
-    <p class="muted">Crime in Dungeon · ZdancDev · obowiązuje od 28 września 2026</p>
-    <nav><a href="#en">English version</a></nav>
-  </header>
+  <div class="switch" role="group" aria-label="Language / Język">
+    <button type="button" data-set-lang="pl">PL</button>
+    <button type="button" data-set-lang="en">EN</button>
+  </div>
+  <p><a href="index.html">← Crime in Dungeon</a></p>
 
-  <section id="pl">
+  <section lang="pl">
+    <header>
+      <h1>Polityka prywatności</h1>
+      <p class="muted">Crime in Dungeon · ZdancDev · obowiązuje od 28 września 2026</p>
+    </header>
+
     <h2>1. Kto odpowiada za dane</h2>
     <p>Administratorem danych jest ZdancDev. Kontakt:
       <a href="mailto:dev.gabriel.zdancewicz@gmail.com">dev.gabriel.zdancewicz@gmail.com</a>.</p>
@@ -74,9 +81,11 @@
     <p>O zmianach tej polityki informujemy, publikując nową wersję na tej stronie wraz z datą.</p>
   </section>
 
-  <section id="en" class="lang">
-    <h1>Privacy policy</h1>
-    <p class="muted">Crime in Dungeon · ZdancDev · effective from 28 September 2026</p>
+  <section lang="en">
+    <header>
+      <h1>Privacy policy</h1>
+      <p class="muted">Crime in Dungeon · ZdancDev · effective from 28 September 2026</p>
+    </header>
 
     <h2>1. Who is responsible</h2>
     <p>The data controller is ZdancDev. Contact:
