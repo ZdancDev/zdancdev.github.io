@@ -43,16 +43,6 @@ nav a { margin-right: 16px; }
   margin: 12px 0;
 }
 
-.achievements { list-style: none; padding: 0; }
-.achievements li {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 12px 16px;
-  margin: 8px 0;
-}
-.achievements strong { color: var(--accent); }
-
 html[data-lang="pl"] [lang="en"],
 html[data-lang="en"] [lang="pl"] { display: none; }
 
